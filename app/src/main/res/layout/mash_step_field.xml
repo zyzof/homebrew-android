@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zyzsoft.homebrew.ui.MashStepField
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+  
+  	<EditText
+	    android:id="@+id/mashStepName"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:ems="10"
+	    android:inputType="text" 
+	    android:layout_weight="0.2"
+	    android:hint="Name">
+	</EditText>
+	
+  	<EditText
+	    android:id="@+id/mashStepTemperature"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:ems="10"
+	    android:inputType="numberDecimal" 
+	    android:layout_weight="0.2"
+	    android:hint="Temperature">
+	</EditText>
+	
+  	<EditText
+	    android:id="@+id/mashStepDuration"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:ems="10"
+	    android:inputType="number" 
+	    android:layout_weight="0.2"
+	    android:hint="Duration (mins)">
+	</EditText>
+	
+  	<ImageButton
+        android:id="@+id/removeMashStep"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/remove_field"
+        android:scaleType="fitCenter" />
+</com.zyzsoft.homebrew.ui.MashStepField>

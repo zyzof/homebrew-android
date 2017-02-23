@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MashScheduler" >
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+            
+	        <LinearLayout
+	            android:id="@+id/initialInfusionDetails"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal">
+	            
+	              	<EditText
+					    android:id="@+id/grainWeight"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:ems="10"
+					    android:inputType="numberDecimal" 
+					    android:layout_weight="0.2"
+					    android:hint="Grain weight" />
+	              	
+	              	<EditText
+					    android:id="@+id/grainTemp"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:ems="10"
+					    android:inputType="numberDecimal" 
+					    android:layout_weight="0.2"
+					    android:hint="Grain temperature" />
+	              	
+	              	<EditText
+					    android:id="@+id/targetPostMashVolume"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:ems="10"
+					    android:inputType="numberDecimal" 
+					    android:layout_weight="0.2"
+					    android:hint="Target final volume" />
+	              	
+	              	<EditText
+					    android:id="@+id/targetInfusionTemp"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:ems="10"
+					    android:inputType="numberDecimal" 
+					    android:layout_weight="0.2"
+					    android:hint="targetInfusionTemp" />
+	            
+	        </LinearLayout>
+	        
+		    <LinearLayout
+		        android:id="@+id/mashStepFieldContainer"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" />
+		
+		    <Button
+		        android:id="@+id/addMashStep"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Add..."
+		        android:onClick="onClickAddMashStep" />
+	    </LinearLayout>
+    </ScrollView>
+    
+</RelativeLayout>

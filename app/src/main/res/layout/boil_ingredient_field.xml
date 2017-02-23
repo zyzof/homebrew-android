@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zyzsoft.homebrew.ui.BoilIngredientField
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="α:"/>
+
+    <EditText
+        android:id="@+id/alphaAcidContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:ems="3"
+        android:hint="(%)"
+        android:layout_weight="0.3"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Wt.:"/>
+    
+  	<EditText
+	    android:id="@+id/boilIngredientsQuantity"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+	    android:ems="3"
+        android:layout_weight="0.3"
+        android:hint="(g)"
+	    android:inputType="numberDecimal" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Dur.:"/>
+
+  	<EditText
+	    android:id="@+id/boilTimeMinutes"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:ems="3"
+        android:layout_weight="0.3"
+        android:hint="(m)"
+	    android:inputType="number" />
+	
+  	<ImageButton
+        android:id="@+id/removeBoilIngredient"
+        style="@style/RemoveButton" />
+</com.zyzsoft.homebrew.ui.BoilIngredientField>

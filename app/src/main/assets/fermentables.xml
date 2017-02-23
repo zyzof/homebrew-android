@@ -1,0 +1,559 @@
+<!-- Shamelessly copied from http://byo.com/resources/grains -->
+<fermentables>
+	<fermentable>
+		<name>Select...</name>
+		<gravity>0</gravity>
+		<lovibond>0</lovibond>
+		<description></description>
+	</fermentable>
+	
+	<fermentable>
+		<name>Black Barley</name>
+		<gravity>1.025</gravity>
+		<lovibond>525</lovibond>
+		<description>Imparts dryness. Unmalted; use in porters and dry stouts.</description>
+	</fermentable>
+	<fermentable>
+		<name>Black Patent Malt</name>
+		<gravity>1.026</gravity>
+		<lovibond>500</lovibond>
+		<description>Provides color and sharp flavor in stouts and porters.</description>
+	</fermentable>
+	<fermentable>
+		<name>Chocolate Malt</name>
+		<gravity>1.034</gravity>
+		<lovibond>350</lovibond>
+		<description>Use in all types to adjust color and add nutty, toasted flavor. Chocolate flavor.</description>
+	</fermentable>
+	<fermentable>
+		<name>Crystal Malt</name>
+		<gravity>1.034</gravity>
+		<lovibond>55</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Carapils</name>
+		<gravity>1.033</gravity>
+		<lovibond>1.5</lovibond>
+		<description>Balances body and flavor without adding color, aids in head retention. For any beer.</description>
+	</fermentable>
+	<fermentable>
+		<name>Munich Malt</name>
+		<gravity>1.034</gravity>
+		<lovibond>10</lovibond>
+		<description>Sweet, toasted flavor and aroma. For Oktoberfests and malty styles.</description>
+	</fermentable>
+	<fermentable>
+		<name>Pale Malt (2-row)</name>
+		<gravity>1.0375</gravity>
+		<lovibond>1.8</lovibond>
+		<description>Smooth, less grainy, moderate malt flavor. Basic malt for all beer styles.</description>
+	</fermentable>
+	<fermentable>
+		<name>Pale Malt (6-row)</name>
+		<gravity>1.035</gravity>
+		<lovibond>1.8</lovibond>
+		<description>Moderate malt flavor. Basic malt for all beer styles.</description>
+	</fermentable>
+	<fermentable>
+		<name>Roasted Barley</name>
+		<gravity>1.025</gravity>
+		<lovibond>300</lovibond>
+		<description>Sweet, grainy, coffee flavor and a red to deep brown color. For porters and stouts.</description>
+	</fermentable>
+	<fermentable>
+		<name>Special Roast</name>
+		<gravity>1.035</gravity>
+		<lovibond>50</lovibond>
+		<description>Provides a deep golden to brown color for ales. Use in all darker ales.</description>
+	</fermentable>
+	<fermentable>
+		<name>Victory Malt</name>
+		<gravity>1.034</gravity>
+		<lovibond>25</lovibond>
+		<description>Provides a deep golden to brown color. Use in nut brown ales, IPAs and Scottish ales.</description>
+	</fermentable>
+	<fermentable>
+		<name>Vienna Malt</name>
+		<gravity>1.035</gravity>
+		<lovibond>3.75</lovibond>
+		<description>Increases malty flavor, provides balance. Use in Vienna, Marzen and Oktoberfest.</description>
+	</fermentable>
+	<fermentable>
+		<name>Wheat Malt</name>
+		<gravity>1.038</gravity>
+		<lovibond>2</lovibond>
+		<description>Light flavor and creamy head. For American weizenbier, weissbier and dunkelweiss.</description>
+	</fermentable>
+	<fermentable>
+		<name>White Wheat Malt</name>
+		<gravity>1.037</gravity>
+		<lovibond>2</lovibond>
+		<description>Imparts a malty flavor. For American wheat beers, wheat bock and doppel bock.</description>
+	</fermentable>
+	<fermentable>
+		<name>Aromatic Malt</name>
+		<gravity>1.036</gravity>
+		<lovibond>23</lovibond>
+		<description>Imparts a big malt aroma. Use in brown ales, Belgian dubbels and tripels.</description>
+	</fermentable>
+	<fermentable>
+		<name>Belgian Pale Ale Malt</name>
+		<gravity>1.038</gravity>
+		<lovibond>3.2</lovibond>
+		<description>Use as a base malt for any Belgian style beer with full body.</description>
+	</fermentable>
+	<fermentable>
+		<name>Biscuit Malt</name>
+		<gravity>1.035</gravity>
+		<lovibond>24</lovibond>
+		<description>Warm baked biscuit flavor and aroma. Increases body. Use in Belgian beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Caramel Pils</name>
+		<gravity>1.030</gravity>
+		<lovibond>7.5</lovibond>
+		<description>A very light crystal malt that lends body, smoother mouth-feel and foam stability.</description>
+	</fermentable>
+	<fermentable>
+		<name>Caramunich Malt</name>
+		<gravity>1.033</gravity>
+		<lovibond>56</lovibond>
+		<description>Caramel, full flavor, copper color. For Belgian ales, German smoked and bocks.</description>
+	</fermentable>
+	<fermentable>
+		<name>Caravienne Malt</name>
+		<gravity>1.034</gravity>
+		<lovibond>21.5</lovibond>
+		<description>Belgian light crystal malt. Used in lighter Abbey or Trappist style ales.</description>
+	</fermentable>
+	<fermentable>
+		<name>De-Bittered Black Malt</name>
+		<gravity>1.030</gravity>
+		<lovibond>550</lovibond>
+		<description>Will add a deep black color without the astringent flavor of black malt.</description>
+	</fermentable>
+	<fermentable>
+		<name>Pale Wheat</name>
+		<gravity>1.038</gravity>
+		<lovibond>1.6</lovibond>
+		<description>Can be used in amounts of up to 70% of grist to create many wheat beer styles and aid in head retention in smaller amounts.</description>
+	</fermentable>
+	<fermentable>
+		<name>Pilsen Malt</name>
+		<gravity>1.037</gravity>
+		<lovibond>1.5</lovibond>
+		<description>Light color, malty flavor. For pilsners, dubbels, tripels, whites and specialty ales.</description>
+	</fermentable>
+	<fermentable>
+		<name>Roasted Wheat</name>
+		<gravity>1.036</gravity>
+		<lovibond>12</lovibond>
+		<description>Slightly roasted wheat which imparts a bready, nut-like quality.</description>
+	</fermentable>
+	<fermentable>
+		<name>Special B Malt</name>
+		<gravity>1.030</gravity>
+		<lovibond>175</lovibond>
+		<description>Extreme caramel aroma and flavor. For dark Abbey beers and other dark beers.</description>
+	</fermentable>
+	<!-- End Belgian malts -->
+	
+	<!-- British Grains -->
+	<fermentable>
+		<name>Amber Malt</name>
+		<gravity>1.032</gravity>
+		<lovibond>60</lovibond>
+		<description>Roasted malt used in British milds, old ales, brown ales, nut brown ales.</description>
+	</fermentable>
+	<fermentable>
+		<name>Brown Malt</name>
+		<gravity>1.032</gravity>
+		<lovibond>65</lovibond>
+		<description>Dry, burnt, chalky character. Use in porters, stouts, brown ales and dark lagers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Carapils Dextrin</name>
+		<gravity>1.033</gravity>
+		<lovibond>12</lovibond>
+		<description>Adds body; aids head retention. For porters, stouts and heavier bodied beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Caramalt</name>
+		<gravity>0</gravity>
+		<lovibond>175</lovibond>
+		<description>Made from green malt, imparts a red hue and contributes to flavor and foam stability.</description>
+	</fermentable>
+	<fermentable>
+		<name>Dark Crystal Malt</name>
+		<gravity>1.034</gravity>
+		<lovibond>168</lovibond>
+		<description>Sweet caramel flavor, mouthfeel. For porters, stouts, old ales and any dark ale.</description>
+	</fermentable>
+	<fermentable>
+		<name>Lager Malt</name>
+		<gravity>1.038</gravity>
+		<lovibond>1.6</lovibond>
+		<description>Used to make light colored and flavored lagers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Maris Otter Pale Malt</name>
+		<gravity>1.038</gravity>
+		<lovibond>3</lovibond>
+		<description>Premium base malt for any beer. Good for pale ales.</description>
+	</fermentable>
+	<fermentable>
+		<name>Mild Ale Malt</name>
+		<gravity>1.037</gravity>
+		<lovibond>2.5</lovibond>
+		<description>Dry, nutty malty flavor. Promotes body. Use in English mild ales.</description>
+	</fermentable>
+	<fermentable>
+		<name>Oat Malt</name>
+		<gravity>1.034</gravity>
+		<lovibond>4</lovibond>
+		<description>Enhances body and flavor. For winter beers, stouts, porters and other robust beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Pale Ale</name>
+		<gravity>1.038</gravity>
+		<lovibond>2.2</lovibond>
+		<description>Moderate malt flavor. Used to produce traditional English and Scottish style ales.</description>
+	</fermentable>
+	<fermentable>
+		<name>Pale Chocolate Malt</name>
+		<gravity>1.034</gravity>
+		<lovibond>215</lovibond>
+		<description>Less roasted than regular chocolate malt, adds color and mild chocolate/coffee flavors to porters, milds and stouts.</description>
+	</fermentable>
+	<fermentable>
+		<name>Peat Smoked Malt</name>
+		<gravity>1.034</gravity>
+		<lovibond>2.8</lovibond>
+		<description>Imparts a robust smoky flavor and aroma. For Scottish ales and wee heavies.</description>
+	</fermentable>
+	<fermentable>
+		<name>Toasted Pale Malt</name>
+		<gravity>1.038</gravity>
+		<lovibond>25</lovibond>
+		<description>Imparts nutty flavor and aroma. Use in IPAs and Scottish ales.</description>
+	</fermentable>
+	<fermentable>
+		<name>Torrified Wheat</name>
+		<gravity>1.036</gravity>
+		<lovibond>1.25</lovibond>
+		<description>Puffed wheat created by high heat. Use in pale ales, bitters and milds.</description>
+	</fermentable>
+	<!-- End British Malts -->
+	
+	<!-- German malts -->
+	<fermentable>
+		<name>Acidulated (Sauer) Malt</name>
+		<gravity>1.033</gravity>
+		<lovibond>2.25</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Cara Wheat Malt (r)</name>
+		<gravity>1.035</gravity>
+		<lovibond>45.5</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>CaraAmber Malt (r)</name>
+		<gravity>1.033</gravity>
+		<lovibond>27</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>CaraAroma Malt (r)</name>
+		<gravity>1.034</gravity>
+		<lovibond>150</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Carafa I (r)</name>
+		<gravity>1.038</gravity>
+		<lovibond>320</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Carafa II</name>
+		<gravity>1.038</gravity>
+		<lovibond>410</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Carafa III</name>
+		<gravity>1.038</gravity>
+		<lovibond>525</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>CaraFoam</name>
+		<gravity>1.033</gravity>
+		<lovibond>1.8</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>CaraHell</name>
+		<gravity>1.034</gravity>
+		<lovibond>10</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>CaraMunich Malt I (R)</name>
+		<gravity>1.034</gravity>
+		<lovibond>34</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>CaraMunich Malt II (R)</name>
+		<gravity>1.034</gravity>
+		<lovibond>46</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>CaraMunich III</name>
+		<gravity>1.034</gravity>
+		<lovibond>56.5</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>CaraRed</name>
+		<gravity>1.033</gravity>
+		<lovibond>17.5</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Chocolate Rye Malt</name>
+		<gravity>1.030</gravity>
+		<lovibond>245</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Chocolate Wheat Malt</name>
+		<gravity>1.038</gravity>
+		<lovibond>415</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Dark Munich Malt</name>
+		<gravity>1.034</gravity>
+		<lovibond>9</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Kolsch Malt</name>
+		<gravity>1.034</gravity>
+		<lovibond>4.5</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Light Munich Malt</name>
+		<gravity>1.034</gravity>
+		<lovibond>5.5</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Melanoidin Malt</name>
+		<gravity>1.033</gravity>
+		<lovibond>27</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Rauch Smoked Malt</name>
+		<gravity>1.037</gravity>
+		<lovibond>3</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Rye Malt</name>
+		<gravity>1.029</gravity>
+		<lovibond>3.5</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Dark Wheat Malt</name>
+		<gravity>1.039</gravity>
+		<lovibond>7</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<fermentable>
+		<name>Light Wheat Malt</name>
+		<gravity>1.039</gravity>
+		<lovibond>1.75</lovibond>
+		<description>Light flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers.</description>
+	</fermentable>
+	<!-- End German Malts -->
+	
+	<!-- Other malts and additions -->
+	<fermentable>
+		<name>Flaked Barley</name>
+		<gravity>1.032</gravity>
+		<lovibond>1.5</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Flaked Maize</name>
+		<gravity>1.037</gravity>
+		<lovibond>1</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Flaked Oats</name>
+		<gravity>1.033</gravity>
+		<lovibond>1</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Flaked Rye</name>
+		<gravity>1.036</gravity>
+		<lovibond>2</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Flaked Wheat</name>
+		<gravity>1.036</gravity>
+		<lovibond>2</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Franco-Belges Kiln Coffee Malt</name>
+		<gravity>0</gravity>
+		<lovibond>165</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Gambrinus Honey Malt</name>
+		<gravity>1.034</gravity>
+		<lovibond>25</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Grits</name>
+		<gravity>1.037</gravity>
+		<lovibond>1.25</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Irish Moss</name>
+		<gravity>0</gravity>
+		<lovibond>0</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Malto Dextrin</name>
+		<gravity>1.043</gravity>
+		<lovibond>0</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Oak Chips</name>
+		<gravity>0</gravity>
+		<lovibond>0</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Scotmalt Golden Promise</name>
+		<gravity>1.038</gravity>
+		<lovibond>2.4</lovibond>
+		<description></description>
+	</fermentable>
+	<!-- End other malts and additions -->
+	
+	<!-- Sugars -->
+	<fermentable>
+		<name>Belgian Candi Sugar (clear)</name>
+		<gravity>1.036</gravity>
+		<lovibond>0.5</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Brown Sugar</name>
+		<gravity>1.046</gravity>
+		<lovibond>40</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Candi Sugar (amber)</name>
+		<gravity>1.036</gravity>
+		<lovibond>75</lovibond>
+		<description></description>
+	</fermentable><fermentable>
+		<name>Candi Sugar (dark)</name>
+		<gravity>1.036</gravity>
+		<lovibond>275</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Corn Sugar</name>
+		<gravity>1.037</gravity>
+		<lovibond>1</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Dark Brown Sugar</name>
+		<gravity>1.046</gravity>
+		<lovibond>60</lovibond>
+		<description></description>
+	</fermentable><fermentable>
+		<name>Demerara Sugar</name>
+		<gravity>1.0415</gravity>
+		<lovibond>1</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Dextrose (glucose)</name>
+		<gravity>1.037</gravity>
+		<lovibond>1</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Dry Malt Extract</name>
+		<gravity>1.044</gravity>
+		<lovibond>10</lovibond>
+		<description></description>
+	</fermentable><fermentable>
+		<name>Honey</name>
+		<gravity>1.032</gravity>
+		<lovibond>0</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Invert Sugar</name>
+		<gravity>1.046</gravity>
+		<lovibond>0</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Lactose</name>
+		<gravity>0</gravity>
+		<lovibond>0</lovibond>
+		<description></description>
+	</fermentable><fermentable>
+		<name>Maple Syrup</name>
+		<gravity>1.030</gravity>
+		<lovibond>35</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Molasses</name>
+		<gravity>1.036</gravity>
+		<lovibond>80</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Sucrose</name>
+		<gravity>1.046</gravity>
+		<lovibond>0</lovibond>
+		<description></description>
+	</fermentable>
+	<fermentable>
+		<name>Treacle</name>
+		<gravity>1.036</gravity>
+		<lovibond>100</lovibond>
+		<description></description>
+	</fermentable>
+	<!-- End sugars -->
+</fermentables>

@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BoilIngredientsEditor" >
+
+    <TextView
+        android:id="@+id/boilStats"
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:gravity="center_vertical"
+        android:text="IBU: -"/>
+
+    <RelativeLayout
+        android:id="@+id/boilDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boilStats">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boil Vol.:" />
+            <EditText
+                android:id="@+id/boilVolume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:hint="(L)"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O.G.:" />
+
+            <EditText
+                android:id="@+id/originalGravity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="numberDecimal"
+                android:hint="1.050" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/boilDetails">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+
+           <!-- <TextView
+                android:id="@+id/boilStats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />-->
+
+		    <LinearLayout
+		        android:id="@+id/boilIngredientContainer"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" />
+
+            <ImageButton
+                android:id="@+id/addBoilIngredient"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/add_item"
+                android:scaleType="fitCenter" />
+
+	    </LinearLayout>
+    </ScrollView>
+    
+</RelativeLayout>

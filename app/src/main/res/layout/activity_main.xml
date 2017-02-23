@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    <!--<Button
+        android:id="@+id/openMiscCalculations"
+        android:layout_width="match_parent"
+        android:layout_height="84sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:onClick="onClickOpenMiscCalculations"
+        android:textSize="21sp"
+        android:text="Misc. Calculations" /> -->
+
+
+    
+    <Button
+        android:id="@+id/openNewRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="84sp"
+        android:layout_above="@+id/openRecipes"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickNewRecipe"
+        android:textSize="21sp"
+        android:text="New Recipe" />
+
+    <Button
+        android:id="@+id/openRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="84sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickOpenRecipes"
+        android:text="Load Recipe..."
+        android:textSize="21sp" />
+
+</RelativeLayout>
